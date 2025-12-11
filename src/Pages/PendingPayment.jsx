@@ -83,7 +83,7 @@ export default function PendingPayment({
             </button>
 
             <button
-              onClick={onPay}
+              
               className="
                 w-full py-3 rounded-xl 
                 text-sm font-semibold 
@@ -99,7 +99,7 @@ export default function PendingPayment({
 
           {/* Support */}
           <div className="mt-4 text-center md:text-left text-xs text-slate-400">
-            Need help? <a href="#" className="text-white underline">Contact support</a>
+            Need help? <a href="" className="text-white underline">Contact support</a>
           </div>
         </div>
 
