@@ -11,8 +11,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="*" element={<PendingPayment />} />
-        {/* <Route path="/" element={<MainPage />} />
+        {/* <Route path="*" element={<PendingPayment />} /> */}
+        <Route path="/" element={<MainPage />} />
   <Route path="/login" element={<LoginPage />} />
         <Route
           path="/admin"
@@ -21,7 +21,7 @@ function App() {
               <AdminDashboard />
             </RequireAuth>
           }
-        /> */}
+        />
       </Routes>
     </Router>
   );
